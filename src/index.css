@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Estilos para la barra de navegacion ===== */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 4em;
+}
+
+.container .logo-title {
+  color: white;
+  padding: 1em;
+  background-color: #797ff6;
+  border-radius: 15px;
+  transition: all .3s ease-in-out;
+}
+
+.container .logo-title:hover {
+  background-color: #333df5;
+}
+
+.container .logo-title h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 1.2em;
+}
+
+.container .enlaces {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .enlaces a {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  margin-left: 1.5em;
+  padding-bottom: 0.2em;
+  color: black;
+  transition: all .3s ease-in-out;
+  text-transform: uppercase;
+  height: 2.5em;
+}
+
+.container .enlaces a:hover {
+  border-bottom: 7px solid #797ff6;
+  color: #797ff6;
+}
+
+/* ====== Estilos Formulario Login ======== */
+
+.login-form {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  padding: 1em 1.5em;
+  background-color: #797ff6;
+  border-radius: 8px;
+  font-family: Poppins, sans-serif;
+  color: white;
+  text-align: center;
+  transition: all .3s ease-in-out;
+}
+
+.login-form form:hover {
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.login-form form input {
+  border: none;
+  height: 40px;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 6px;
+  width: 100%;
+}
+
+
+.login-form form button {
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: none;
+  font-family: Poppins, sans-serif;
+  font-size: medium;
+  font-weight: 600;
+  color: #5a62fa;
+  background-color: white;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+}
+
+.login-form form button:hover {
+  background-color: #333df5;
+  color: white;
+}
+
+
+.login-form form span {
+  margin-top: 20px;
+}
+
+.login-form form span a {
+  color: #222ce3;
+  text-decoration: none;
+}
+
+/* ====== Estilo de formulario Registro ===== */
+
+.register-form {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-form form {
+  display: flex;
+  flex-direction: column;
+  width: 23em;
+  padding: 1em 1.5em;
+  background-color: #797ff6;
+  border-radius: 8px;
+  font-family: Poppins, sans-serif;
+  color: white;
+  text-align: center;
+  transition: all .3s ease-in-out;
+}
+
+.register-form form:hover {
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.register-form form input {
+  border: none;
+  height: 40px;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 6px;
+  width: 100%;
+}
+
+
+.register-form form button {
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: none;
+  font-family: Poppins, sans-serif;
+  font-size: medium;
+  font-weight: 600;
+  color: #5a62fa;
+  background-color: white;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+}
+
+.register-form form button:hover {
+  background-color: #333df5;
+  color: white;
+}
+
+
+.register-form form span {
+  margin-top: 20px;
+}
+
+.register-form form span a {
+  color: #222ce3;
+  text-decoration: none;
+}
