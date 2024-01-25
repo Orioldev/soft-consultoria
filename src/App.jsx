@@ -11,7 +11,8 @@ export const App = () => {
     </div>
 
         <div className='register-form'>
-            <Login />
+            <Login /> 
+            {/* <Register /> */}
         </div>
     </>    
   )
